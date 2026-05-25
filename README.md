@@ -61,27 +61,6 @@ The analysis aims to:
 
 ---
 
-# 📂 Project Structure
-
-```text
-Airline-Strategic-Route-Optimization/
-│
-├── data/
-│   └── Airline_Operations_Analytics_Dataset.xlsx
-│
-├── images/
-│   ├── top_strategic_routes.png
-│   ├── strategic_distribution.png
-│   ├── strategic_bubble_chart.png
-│   └── strategic_score_distribution.png
-│
-├── airline_strategic_analysis.py
-├── README.md
-└── requirements.txt
-```
-
----
-
 # 📊 Key Features Engineered
 
 The project creates several business-oriented KPIs:
@@ -136,53 +115,6 @@ Routes are classified into:
 
 ---
 
-# 📈 Visualizations Included
-
-## 1️⃣ Top Strategic Routes
-
-Displays the highest-performing airline routes based on strategic score.
-
-```md
-![Top Strategic Routes](images/top_strategic_routes.png)
-```
-
----
-
-## 2️⃣ Strategic Recommendation Distribution
-
-Pie chart showing route segmentation by recommendation category.
-
-```md
-![Strategic Distribution](images/strategic_distribution.png)
-```
-
----
-
-## 3️⃣ Revenue vs Delay vs Passenger Demand
-
-Bubble chart comparing:
-- delays
-- revenue
-- passenger demand
-
-Bubble size represents passenger volume.
-
-```md
-![Bubble Chart](images/strategic_bubble_chart.png)
-```
-
----
-
-## 4️⃣ Strategic Score Distribution
-
-Histogram showing overall distribution of strategic route scores.
-
-```md
-![Score Distribution](images/strategic_score_distribution.png)
-```
-
----
-
 # 🔍 Correlation Analysis
 
 The project performs correlation analysis between:
@@ -234,22 +166,6 @@ Possible future enhancements include:
 - Route profitability forecasting
 - Real-time airline KPI dashboards
 - Power BI integration
-
----
-
-# ▶️ How to Run the Project
-
-Install required libraries:
-
-```bash
-pip install pandas numpy matplotlib openpyxl
-```
-
-Run the Python script:
-
-```bash
-python airline_strategic_analysis.py
-```
 
 ---
 
